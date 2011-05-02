@@ -6,7 +6,7 @@ sudo apt-get -y install git-core vim vim-gnome
 sudo apt-get upgrade
 
 # clone environment
-if ! which gvim >/dev/null; then
+if which gvim >/dev/null; then
   git clone git://github.com/lchanmann/mgvim.git
 
   vimrc=$HOME/.vimrc
