@@ -18,6 +18,12 @@ if ! which gvim >/dev/null; then
   mv $gvimrc $gvimrc.bak
   mv $vim_dir $vim_dir.bak
 
+  # install Monaca font
+  font_dir=$HOME/.fonts
+  [ ! -d $font_dir ] && mkdir $font_dir
+  mv mgvim/Monaco_Linux.ttf $font_dir
+  fc-cache -f -v
+
   # configure .vimrc and .gvimrc
   mv mgvim/vimrc $vimrc
   mv mgvim/gvimrc $gvimrc
