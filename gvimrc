@@ -12,17 +12,10 @@ set nu                            " Show line number
 colorscheme vividchalk
 
 " disable arrow keys
-noremap  <Up> ""
-noremap! <Up> <Esc> 
-
-noremap  <Down> ""
-noremap! <Down> <Esc> 
-
-noremap  <Left> ""
-noremap! <Left> <Esc> 
-
-noremap  <Right> ""
-noremap! <Right> <Esc> 
+noremap  <Up> <Nop>
+noremap  <Down> <Nop>
+noremap  <Left> <Nop>
+noremap  <Right> <Nop>
 
 " Uncomment to use.
 " set guioptions-=r                 " Don't show right scrollbar

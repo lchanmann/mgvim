@@ -44,3 +44,12 @@ set is
 
 " Colorscheme
 colorscheme vividchalk
+
+" leaderkey
+let mapleader = ","
+
+" hg key binding
+nmap <F2> :!hg st<CR>
+nmap <F9> :!hg diff %<CR>
+nmap ,hgr :!hg revert %<CR>
+nmap ,hgm :!hg merge<CR>
