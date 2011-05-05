@@ -2,7 +2,7 @@
 
 # install gvim
 sudo apt-get update
-sudo apt-get -y install git-core vim vim-gnome
+sudo apt-get -y install git vim vim-gnome
 sudo apt-get upgrade
 
 # clone environment
