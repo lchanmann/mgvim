@@ -56,4 +56,4 @@ nmap ,hgr :!hg revert %<CR>
 nmap ,hgm :!hg merge<CR>
 
 " rspec 2 key binding
-map <F5> :!rspec %<CR>
+map <F5> :!rspec --no-color %<CR>
