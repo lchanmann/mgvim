@@ -1,5 +1,5 @@
 " Turn on line numbering
-"set nu
+set nu
 
 " Enable mouse
 set mouse=a
@@ -57,3 +57,9 @@ nmap ,hgm :!hg merge<CR>
 
 " rspec 2 key binding
 map <F5> :!rspec --no-color %<CR>
+
+" NERDTree key binding
+nmap <silent> <c-n> :NERDTreeToggle<CR>
+
+" Go to definition
+nmap <F6> g*<CR>
