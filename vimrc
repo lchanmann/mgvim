@@ -56,10 +56,16 @@ nmap ,hgr :!hg revert %<CR>
 nmap ,hgm :!hg merge<CR>
 
 " rspec 2 key binding
-map <F5> :!rspec --no-color %<CR>
+nmap <F5> :!rspec --no-color %<CR>
 
 " NERDTree key binding
 nmap <silent> <c-n> :NERDTreeToggle<CR>
+
+" Navigate windows with ctrl direction
+noremap <C-J> <C-W>j
+noremap <C-K> <C-W>k
+noremap <C-H> <C-W>h
+noremap <C-L> <C-W>l
 
 " Go to definition
 nmap <F6> g*<CR>
